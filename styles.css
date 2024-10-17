@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    background-color: #f7f9fa;
+}
+
+#header{
+    padding:10px;
+    width:99%;
+    height:60px;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span{
+    font-size: 16px;
+}
+
+#search_bar{
+    height:40px;
+    width:550px;
+    border-radius: 25px;
+    border:1px solid black;
+    font-size: 22px;
+    padding-left:10px;
+}
+
+#login_button{
+    height:40px;
+    width:80px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+#signup_button{
+    height:40px;
+    width:80px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: black;
+    color:white;
+}
