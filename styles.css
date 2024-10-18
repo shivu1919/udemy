@@ -1,11 +1,11 @@
 body{
     margin:0;
-    background-color: #f7f9fa;
+    background-color: #e5e6e7;
 }
 
 #header{
     padding:10px;
-    width:99%;
+    width:98.5%;
     height:60px;
     background-color: white;
     display:flex;
@@ -41,4 +41,48 @@ span{
     font-weight: bold;
     background-color: black;
     color:white;
+}
+
+#section1{
+    height:350px;
+    background-position: center;
+    background-image: url(pic1.png);
+    padding-left: 180px;
+    padding-top: 30px;
+}
+
+#card1{
+    padding-top:10px;
+    padding-left: 20px;
+    width:420px;
+    height:140px;
+    background-color: rgb(255, 255, 255);
+}
+
+#section2{
+    padding-left: 88px;
+}
+
+#subheader{
+    width: 70%;
+    padding-left: 88px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+#thirdheader{
+    display: flex;
+    padding-left: 88px;
+    width:90%;
+    justify-content: space-between;
+}
+
+#div1{
+    border-radius: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    height:60px;
+    background-color: rgb(206, 206, 206);
 }
